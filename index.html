@@ -64,12 +64,17 @@
       </div>
     </section>
 
-    <section class="section" aria-labelledby="current-project">
+    <section class="section" aria-labelledby="mobile-app">
       <div class="container">
-        <h2 id="current-project">Current project</h2>
+        <h2 id="mobile-app">Mobile app</h2>
         <div class="card">
           <span class="badge">Private pilot testing</span>
           <p>We are developing a mobile application that helps South African users track and manage firearm licence, competency and renewal administration. The product is currently in private pilot testing.</p>
+          <!-- Store buttons stay hidden until a real URL is set in assets/js/site-config.js -->
+          <p class="store-links" data-store-links hidden>
+            <a class="store-btn" data-store="google-play" rel="noopener" hidden><span>Get it on</span> Google Play</a>
+            <a class="store-btn" data-store="app-store" rel="noopener" hidden><span>Download on the</span> App Store</a>
+          </p>
         </div>
       </div>
     </section>
@@ -110,5 +115,8 @@
       </nav>
     </div>
   </footer>
+
+  <script src="assets/js/site-config.js"></script>
+  <script src="assets/js/store-links.js"></script>
 </body>
 </html>
