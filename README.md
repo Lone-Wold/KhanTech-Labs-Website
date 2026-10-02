@@ -9,6 +9,8 @@ It is deliberately simple: static HTML and CSS with one tiny script (for optiona
 | URL | File |
 |---|---|
 | `/` | `index.html` |
+| `/terms/` | `terms/index.html` |
+| `/refunds/` | `refunds/index.html` |
 | `/privacy/` | `privacy/index.html` |
 | any unknown URL | `404.html` |
 

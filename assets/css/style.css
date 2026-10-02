@@ -263,6 +263,15 @@ h3 {
   margin-top: 1rem;
 }
 
+.card-spaced {
+  margin-top: 1rem;
+}
+
+.price {
+  color: var(--teal-strong);
+  font-size: 1.2rem;
+}
+
 .badge {
   display: inline-block;
   margin-bottom: 0.9rem;
