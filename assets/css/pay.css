@@ -1,0 +1,38 @@
+/*
+ * Payment return pages only. Four short, centred status pages.
+ *
+ * These pages carry no JavaScript at all, so everything here is layout. They
+ * are loaded after style.css and only centre the blocks that .centered leaves
+ * left-aligned.
+ */
+.centered .card,
+.centered .notice {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.centered .notice {
+  margin-top: 1.75rem;
+}
+
+.centered .btn {
+  margin-top: 1.75rem;
+}
+
+.pay-steps {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+
+.pay-steps li {
+  padding: 0.65rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.pay-steps li:first-child {
+  border-top: 0;
+}
