@@ -19,20 +19,3 @@
 .centered .btn {
   margin-top: 1.75rem;
 }
-
-.pay-steps {
-  max-width: var(--measure);
-  margin: 0 auto;
-  padding: 0;
-  list-style: none;
-  text-align: left;
-}
-
-.pay-steps li {
-  padding: 0.65rem 0;
-  border-top: 1px solid var(--line);
-}
-
-.pay-steps li:first-child {
-  border-top: 0;
-}
