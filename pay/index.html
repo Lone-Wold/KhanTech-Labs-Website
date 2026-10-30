@@ -1,0 +1,80 @@
+<!-- Identical to /pay.html. "pay" is both a file and a directory, so
+     GitHub Pages may serve either /pay or /pay/; both must answer 200,
+     because iKhokha validates requesterUrl when the Pay Link is created.
+     Edit the two together. -->
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Motivation Assistance payment &mdash; KhanTech Labs</title>
+  <meta name="description" content="Payments for KhanTech Labs Motivation Assistance are started from inside the FA Tracker app.">
+  <!-- Payment return pages are never indexed, and must not pass a referrer
+       onward: the page the customer arrives from may carry a payment
+       reference in its URL. -->
+  <meta name="robots" content="noindex">
+  <meta name="referrer" content="no-referrer">
+  <meta name="theme-color" content="#050d1a">
+  <link rel="canonical" href="https://khantech.co.za/pay">
+  <!-- Reached at /pay/... as a flat .html file, so root-absolute paths. -->
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/pay.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/">
+        <img src="/assets/img/icon-192.png" width="36" height="36" alt="">
+        <span>KhanTech Labs</span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/#services">Services</a></li>
+          <li><a href="/terms/">Terms</a></li>
+          <li><a href="/refunds/">Refunds</a></li>
+          <li><a href="/privacy/">Privacy Policy</a></li>
+          <li><a href="/#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="container centered">
+      <p class="eyebrow">Motivation Assistance</p>
+      <h1>Motivation Assistance payment</h1>
+      <p class="lead">Payments are started inside the <strong>FA Tracker</strong> app, not on this page. This page is the declared origin for those payment requests.</p>
+      <ul class="pay-steps">
+        <li>You start the payment in the app and pay on our payment provider&rsquo;s secure page.</li>
+        <li>You are then returned here, and the app shows the outcome once it has been verified.</li>
+      </ul>
+      <div class="notice card-spaced">
+        <p>This page never takes payment and never asks for card details. If a page claiming to be us asks you for card details outside our payment provider&rsquo;s own checkout, don&rsquo;t enter them.</p>
+      </div>
+      <p class="muted card-spaced">See the <a href="/refunds/">Refund Policy</a> and <a href="/terms/">Terms of Service</a>.</p>
+      <a class="btn" href="/#services">About the service</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 KhanTech Labs</p>
+      <nav aria-label="Footer">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/terms/">Terms of Service</a></li>
+          <li><a href="/refunds/">Refund Policy</a></li>
+          <li><a href="/privacy/">Privacy Policy</a></li>
+          <li><a href="/#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
