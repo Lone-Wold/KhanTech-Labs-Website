@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Payment not confirmed &mdash; FA Tracker</title>
+  <meta name="description" content="Your FA Tracker contribution could not be confirmed.">
+  <!-- Payment return pages are never indexed, and must not pass a referrer
+       onward: the page the customer arrives from may carry a payment
+       reference in its URL. No JavaScript: this page cannot see the payment
+       outcome, so it never states one. FA Tracker shows the verified result. -->
+  <meta name="robots" content="noindex">
+  <meta name="referrer" content="no-referrer">
+  <meta name="theme-color" content="#050d1a">
+  <link rel="canonical" href="https://khantech.co.za/pay/contribution/failure">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/pay.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/">
+        <img src="/assets/img/icon-192.png" width="36" height="36" alt="">
+        <span>KhanTech Labs</span>
+      </a>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="container centered">
+      <p class="eyebrow">FA Tracker contribution</p>
+      <h1>Payment not confirmed</h1>
+      <p class="lead">We couldn&rsquo;t confirm a successful payment.</p>
+      <div class="notice">
+        <p>If your bank shows a payment, please don&rsquo;t pay again immediately. Contact us so we can check.</p>
+      </div>
+      <p class="muted card-spaced">Email <a href="mailto:khantech.apps@gmail.com">khantech.apps@gmail.com</a> and we&rsquo;ll check it for you.</p>
+      <!-- fatracker://support reopens the Coffee screen, which re-checks the
+           payment with the provider. Outside the app the link does nothing,
+           so closing the page is offered as well. -->
+      <a class="btn" href="fatracker://support">Return to FA Tracker</a>
+      <p class="muted card-spaced">Or close this page to go back to the app.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 KhanTech Labs</p>
+      <nav aria-label="Footer">
+        <ul>
+          <li><a href="/terms/">Terms of Service</a></li>
+          <li><a href="/refunds/">Refund Policy</a></li>
+          <li><a href="/privacy/">Privacy Policy</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
