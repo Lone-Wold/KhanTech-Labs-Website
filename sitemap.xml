@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://khantech.co.za/</loc>
-    <lastmod>2026-10-02</lastmod>
+    <lastmod>2026-11-28</lastmod>
   </url>
   <url>
     <loc>https://khantech.co.za/terms/</loc>
@@ -20,4 +20,7 @@
     <loc>https://khantech.co.za/account-deletion/</loc>
     <lastmod>2026-10-19</lastmod>
   </url>
+  <url><loc>https://khantech.co.za/resources/</loc></url>
+  <url><loc>https://khantech.co.za/support/</loc></url>
+  <url><loc>https://khantech.co.za/motivation/</loc></url>
 </urlset>
